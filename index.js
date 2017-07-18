@@ -4,8 +4,8 @@ const Bot = require('./bot.js');
 
 /* get token from env variable for security reasons
     eg.
-       when running the bot process use 
-       
+       when running the bot process use
+
        SLACK_TOKEN = <BOT_SLACK_TOKEN_HERE> node index.js
 */
 
@@ -17,11 +17,11 @@ const bot = new Bot({
     autoReconnect: true,
     autoMark: true
 });
-
-/* 
+console.log('running!');
+/*
 bot respond commands
-giggle-bot listens on message events incoming and looks for 
-specific string patterns if found giggle-bot responds based on 
+giggle-bot listens on message events incoming and looks for
+specific string patterns if found giggle-bot responds based on
 particular pattern
 */
 
@@ -40,7 +40,7 @@ bot.respondTo('joke', (message, channel, user) => {
 
         if (tokenArr.length === 1) {
 
-            /* 
+            /*
             making giggle bot send joke to channel if no argument is specified
 
             eg.
@@ -57,10 +57,10 @@ bot.respondTo('joke', (message, channel, user) => {
                     bot.send(json.value, channel);
                 });
         } else {
-            /* 
+            /*
             taking argument and cracking a joke with the given argument
 
-            eg. 
+            eg.
             let args = tokenArr.slice(1);
             bot.send(`${args[0]} looks like ..., arrhh I need some damn jokes`, channel);
 
