@@ -39,4 +39,4 @@ Finally, add the bot you created on slack to your channel via `/invite @giggle-b
 ### About this Project
 
 This is a bot project created by the ChameleonOne Team of the Chingu-Chameleon Cohort.
-The team members are [@Amanfojnr](https://github.com/amanfojnr), [@benjamin](https://github.com/benjaminadk) and [@afixoftrix](https://github.com/afixoftrix).
+The team members are [@Amanfojnr](https://github.com/amanfojnr), [@benjaminadk](https://github.com/benjaminadk) and [@afixoftrix](https://github.com/afixoftrix).
