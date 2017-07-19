@@ -1,6 +1,7 @@
 'use strict'
 const fetch = require('node-fetch');
 const Bot = require('./bot.js');
+const app = require('express');
 
 /* get token from env variable for security reasons
     eg.
@@ -9,6 +10,7 @@ const Bot = require('./bot.js');
        SLACK_TOKEN = <BOT_SLACK_TOKEN_HERE> node index.js
 */
 
+const port = process.env.PORT || 5000 app.listen(port);
 const token = process.env.SLACK_TOKEN;
 
 // create bot instance
