@@ -1,6 +1,6 @@
 # Giggle Bot
 
-![Image](/assets/apitoken.png)
+![Image](/assets/giggl.png)
 
 
 ###What is giggle bot?
