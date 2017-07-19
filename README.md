@@ -1,5 +1,9 @@
 # Giggle Bot
-What is giggle bot?
+
+![Image](/assets/apitoken.png)
+
+
+###What is giggle bot?
 Giggle bot is a slack bot that increases the humor levels of your slack chat room. It does this by reading trigger words from the slack channel through the slack api and returning a joke or a meme-ish picture (depending on the input).
 
 ## Automatic Deployment
