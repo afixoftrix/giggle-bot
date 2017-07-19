@@ -1,7 +1,8 @@
 'use strict'
 const fetch = require('node-fetch');
 const Bot = require('./bot.js');
-const app = require('express');
+const express = require('express');
+const app = express();
 
 /* get token from env variable for security reasons
     eg.
