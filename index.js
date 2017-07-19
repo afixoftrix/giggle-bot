@@ -10,7 +10,8 @@ const app = require('express');
        SLACK_TOKEN = <BOT_SLACK_TOKEN_HERE> node index.js
 */
 
-const port = process.env.PORT || 5000 app.listen(port);
+const port = process.env.PORT || 5000;
+app.listen(port);
 const token = process.env.SLACK_TOKEN;
 
 // create bot instance
