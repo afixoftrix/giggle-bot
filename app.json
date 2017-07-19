@@ -2,7 +2,7 @@
   "name": "giggle-bot",
   "description": "giggle-bot is a joke telling bot for slack.",
   "repository": "https://github.com/afixoftrix/giggle-bot",
-  "logo": "https://heroku-www-files.s3.amazonaws.com/starbot/starbot-icon.png",
+  "logo": "http://i67.tinypic.com/28pbiw.png",
   "success_url": "/",
   "env": {
     "SLACK_TOKEN": {
