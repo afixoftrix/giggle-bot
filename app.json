@@ -6,7 +6,7 @@
   "success_url": "/",
   "env": {
     "SLACK_TOKEN": {
-      "description": "Slack bot RTM API token",
+      "description": "Slack token gotten from bot created on slack",
       "required": true
     }
   },
